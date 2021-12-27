@@ -1,0 +1,38 @@
+.header {
+  background-color: black;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  font-size: 2rem;
+  padding-left: 1rem;
+  font-weight: 600;
+}
+
+.input {
+  flex-basis: 100%;
+  margin: 0.3rem;
+  height: 2rem;
+  font-size: 1rem;
+  outline: 0;
+}
+
+.button {
+  background-color: rgb(73, 67, 67);
+  border-style: none;
+  height: 2rem;
+  font-size: 1.5rem;
+  color: white;
+  margin-right: 0.3rem;
+}
+
+.button:hover {
+  background-color: rgb(112, 104, 104);
+}
+
+.button:active {
+  color: rgb(236, 230, 230);
+}
