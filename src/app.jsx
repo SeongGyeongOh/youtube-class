@@ -12,7 +12,7 @@ function App() {
       redirect: 'follow'
     };
     
-    fetch("https://www.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResult=25&key=AIzaSyAltfsrOvONgSUawBJ-S21X6AsC7p4aRes", requestOptions)
+    fetch("https://www.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=25&key=AIzaSyAltfsrOvONgSUawBJ-S21X6AsC7p4aRes", requestOptions)
       .then(response => response.json())
       .then(result => setVideos(result.items))
        .catch(error => console.log('error', error));
