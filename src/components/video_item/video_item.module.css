@@ -38,3 +38,9 @@
 .channel {
   font-size: 0.6rem;
 } 
+
+@media screen and (max-width: 48rem){
+  .container.grid, .container.list {
+    width: 100%;
+  }
+}
